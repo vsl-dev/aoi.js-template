@@ -1,2 +1,5 @@
 # aoi.js-template
-Free aoi.js template for you :)
+
+<hr />
+
+[![Discord](https://img.shields.io/discord/771291725909721098?style=plastic)](https://discord.gg/4eeuQne)
