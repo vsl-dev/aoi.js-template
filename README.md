@@ -2,6 +2,24 @@
 
 A nice infrastructure that you can use to build your Aoi.js bot!
 
+# Required packages 
+
+```
+npm i aoi.js
+```
+```
+npm i discord.js
+```
+```
+npm i express
+```
+```
+npm i ytdl-core
+```
+```
+npm i ytdl-core-discord
+```
+
 # Changelogs
 
 - Added web status
