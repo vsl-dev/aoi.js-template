@@ -1,10 +1,18 @@
+const express = require("express");
+const app = express();
+const http = require("http");
+app.get("/", (req, res) => {
+	res.sendStatus(200);
+});
+app.listen(process.env.PORT);
+
 const aoijs = require("aoi.js");
 const bot = new aoijs.Bot({
-token: "TOKEN" ,
-prefix: "PREFIX", 
-intents: "all",
-mobile: false,
-fetchInvites: false
+	token: "TOKEN",
+	prefix: "PREFIX",
+	intents: "all",
+	mobile: false,
+	fetchInvites: false
 })
 const loader = new aoijs.LoadCommands(bot);
 loader.load(bot.cmd, './commands/');
@@ -27,7 +35,8 @@ bot.onMessageDelete();
 
 bot.readyCommand({
     channel: "",
-    code: `$log[Ready on $userTag[$clientID]]`
+    code: `$log[Ready on $userTag[$clientID]]
+    $log[https://vsldev.tk/github template!]`
 })
 
 //Commands
@@ -37,10 +46,15 @@ name: "ping",
 code: `Pong! \`$ping\`ms`
 })
 
+bot.command({
+    name: "help",
+    code: ` Join offical discord server for help https://vsldev.tk/discord `
+})
+
 //Status
 
 bot.status({
-  text: "I love pandas", 
+  text: "vsldev.tk/github", 
   type: "PLAYING", 
   status: "online",
   time: 12 
@@ -49,5 +63,5 @@ bot.status({
 //Variables
 
 bot.variables({
-  hw: "Hello World!"
+  site: "https://vsldev.tk/"
 })
