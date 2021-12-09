@@ -14,4 +14,3 @@ A nice infrastructure that you can use to build your Aoi.js bot!
 - Instagram - [vsl.dev](https://vsldev.tk/instagram)
 - Github - [vsl-dev](https://vsldev.tk/github)
 - Discord - [VSL | Offical Server](https://vsldev.tk/discord)
-
