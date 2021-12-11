@@ -1,5 +1,35 @@
-# aoi.js-template
+# Aoi.js 5.0.5 and node.js v16 bot!
 
-[![Discord](https://img.shields.io/discord/771291725909721098?style=plastic)](https://discord.gg/4eeuQne)
+A nice infrastructure that you can use to build your Aoi.js bot!
 
-[![Github](https://img.shields.io/github/followers/vsl-dev?style=social)](https://github.com/vsldev1409)
+# Required packages 
+
+```
+npm i aoi.js
+```
+```
+npm i discord.js
+```
+```
+npm i express
+```
+```
+npm i ytdl-core
+```
+```
+npm i ytdl-core-discord
+```
+
+# Changelogs
+
+- Added web status
+- Fixed bugs
+- Changed aoi.js version 5.0.1 to  5.0.5
+
+# Links
+
+- Website - [vslde.tk](https://vsldev.tk)
+- Instagram - [vsl.dev](https://vsldev.tk/instagram)
+- Github - [vsl-dev](https://vsldev.tk/github)
+- Discord - [VSL | Offical Server](https://vsldev.tk/discord)
+- Other Links - [vsldev.tk/links](https://vsldev.tk/links)
